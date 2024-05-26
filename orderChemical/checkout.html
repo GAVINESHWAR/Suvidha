@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout</title>
+  <link rel="stylesheet" href="checkoutStyle.css">
+</head>
+<body>
+  <div class="container">
+    <div class="progress-bar">
+      <div class="step active">Cart</div>
+      <div class="step">Address</div>
+      <div class="step">Payment Options</div>
+    </div>
+
+    <div id="checkoutForm">
+      <!-- Step 1: Cart -->
+      <div class="form-step active" id="step1">
+        <h2>Cart</h2>
+        <div class="product-details" id="productDetails">
+          <img src="" alt="Product Image" id="productImage">
+          <div class="product-info">
+            <h3 id="productName"></h3>
+            <p id="productSeller"></p>
+            <p id="productPrice"></p>
+            <p>Quantity: <input type="number" id="quantity" value="1" min="1"></p>
+            <p id="expectedDelivery"></p>
+          </div>
+        </div>
+        <button class="next-btn">Next</button>
+      </div>
+
+      <!-- Step 2: Address -->
+      <div class="form-step" id="step2">
+        <h2>Address</h2>
+        <form id="addressForm">
+          <input type="text" id="name" placeholder="Full Name" required>
+          <input type="text" id="address" placeholder="Address" required>
+          <input type="text" id="city" placeholder="City" required>
+          <input type="text" id="state" placeholder="State" required>
+          <input type="text" id="zip" placeholder="ZIP Code" required>
+        </form>
+        <button class="prev-btn">Back</button>
+        <button class="next-btn">Next</button>
+      </div>
+
+      <!-- Step 3: Payment Options -->
+      <div class="form-step" id="step3">
+        <h2>Payment Options</h2>
+        <div id="paymentForm">
+          <div class="product-summary">
+            <img id="productImagePayment" src="" alt="Product Image">
+            <div class="product-info">
+              <h3 id="productNamePayment">Product Name</h3>
+              <p id="sellerNamePayment">Seller: Seller Name</p>
+              <p id="productPricePayment">Price: $50</p>
+              <p id="productQuantityPayment">Quantity: 1</p>
+              <p id="expectedDeliveryPayment">Expected Delivery: 5-10 days</p>
+            </div>
+          </div>
+          <button id="payOnDeliveryButton">Pay on Delivery</button>
+          <button id="payOnlineButton">Pay Online</button>
+        </div>
+        <button class="prev-btn">Back</button>
+      </div>
+    </div>
+
+    <div id="confirmation" style="display: none;">
+      <h2>Payment Confirmation</h2>
+      <p id="paymentStatus"></p>
+    </div>
+  </div>
+
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+  <script src="checkout.js"></script>
+</body>
+</html>

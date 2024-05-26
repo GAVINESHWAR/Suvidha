@@ -1,0 +1,110 @@
+[
+  {
+    "img_src": "https://example.com/images/pesticide1.jpg",
+    "name": "GreenGuard Insecticide",
+    "description": "Effective against a wide range of insects, ensuring healthy crops.",
+    "rate": "$25 per liter"
+  },
+  {
+    "img_src": "https://example.com/images/fertilizer1.jpg",
+    "name": "CropBoost Fertilizer",
+    "description": "High-nutrient formula for improved crop yield and soil health.",
+    "rate": "$30 per 20 kg bag"
+  },
+  {
+    "img_src": "https://example.com/images/herbicide1.jpg",
+    "name": "WeedOut Herbicide",
+    "description": "Targets broadleaf and grassy weeds, promoting clean fields.",
+    "rate": "$18 per liter"
+  },
+  {
+    "img_src": "https://example.com/images/fungicide1.jpg",
+    "name": "FungiGuard Fungicide",
+    "description": "Protects crops from fungal diseases with long-lasting action.",
+    "rate": "$22 per liter"
+  },
+  {
+    "img_src": "https://example.com/images/fertilizer3.jpg",
+    "name": "GrowthBoost Fertilizer",
+    "description": "Enhances root development and overall plant health.",
+    "rate": "$32 per 20 kg bag"
+  },
+  {
+    "img_src": "https://example.com/images/insecticide2.jpg",
+    "name": "BugBuster Insecticide",
+    "description": "Quick-acting formula to eliminate common crop pests.",
+    "rate": "$20 per liter"
+  },
+  {
+    "img_src": "https://example.com/images/fertilizer2.jpg",
+    "name": "NutriMax Fertilizer",
+    "description": "Balanced nutrients for optimal growth and productivity.",
+    "rate": "$28 per 25 kg bag"
+  },
+  {
+    "img_src": "https://example.com/images/herbicide2.jpg",
+    "name": "ClearField Herbicide",
+    "description": "Effective weed control without harming crops.",
+    "rate": "$19 per liter"
+  },
+  {
+    "img_src": "https://example.com/images/fungicide2.jpg",
+    "name": "SporeShield Fungicide",
+    "description": "Advanced protection against a variety of fungal pathogens.",
+    "rate": "$24 per liter"
+  },
+  {
+    "img_src": "https://example.com/images/insecticide3.jpg",
+    "name": "PestPatrol Insecticide",
+    "description": "Comprehensive pest control for both pre- and post-harvest.",
+    "rate": "$21 per liter"
+  },
+  {
+    "img_src": "https://example.com/images/fertilizer3.jpg",
+    "name": "GrowthBoost Fertilizer",
+    "description": "Enhances root development and overall plant health.",
+    "rate": "$32 per 20 kg bag"
+  },
+  {
+    "img_src": "https://example.com/images/herbicide3.jpg",
+    "name": "WeedAway Herbicide",
+    "description": "Selective herbicide that targets stubborn weeds.",
+    "rate": "$17 per liter"
+  },
+  {
+    "img_src": "https://example.com/images/fungicide3.jpg",
+    "name": "CropSafe Fungicide",
+    "description": "Prevents and cures a broad spectrum of fungal diseases.",
+    "rate": "$23 per liter"
+  },
+  {
+    "img_src": "https://example.com/images/insecticide4.jpg",
+    "name": "BugBlitz Insecticide",
+    "description": "Dual-action formula for immediate and residual pest control.",
+    "rate": "$26 per liter"
+  },
+  {
+    "img_src": "https://example.com/images/fertilizer4.jpg",
+    "name": "YieldMax Fertilizer",
+    "description": "Promotes higher yields with essential macro and micronutrients.",
+    "rate": "$29 per 25 kg bag"
+  },
+  {
+    "img_src": "https://example.com/images/fertilizer3.jpg",
+    "name": "GrowthBoost Fertilizer",
+    "description": "Enhances root development and overall plant health.",
+    "rate": "$32 per 20 kg bag"
+  },
+  {
+    "img_src": "https://example.com/images/herbicide4.jpg",
+    "name": "TotalControl Herbicide",
+    "description": "Provides total weed control for various crop types.",
+    "rate": "$20 per liter"
+  },
+  {
+    "img_src": "https://example.com/images/fertilizer3.jpg",
+    "name": "GrowthBoost Fertilizer",
+    "description": "Enhances root development and overall plant health.",
+    "rate": "$32 per 20 kg bag"
+  }
+]
